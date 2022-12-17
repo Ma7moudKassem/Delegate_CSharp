@@ -55,9 +55,12 @@ public class Program
 
         RectangleHelper helper = new();
 
+        /* Using Force 
         helper.GetArea(10, 5);
         helper.GetPerimeter(10, 5);
+        */
 
+        // Using Malticast Delegate
         RectangleDelegate rectangleDelegate = helper.GetArea;
         rectangleDelegate += helper.GetPerimeter;
 
