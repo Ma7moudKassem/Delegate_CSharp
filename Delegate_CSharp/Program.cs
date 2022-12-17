@@ -6,13 +6,13 @@ public class Program
     private static void Main(string[] args)
     {
         Employee[] employees = new Employee[]
-{
-    new Employee{ Id=1,Name="Kassem",Gender="Male",TotalSales=50000m },
-    new Employee{ Id=2,Name="Ahmed",Gender="Male",TotalSales=45000m },
-    new Employee{ Id=3,Name="Mahmoud",Gender="Male",TotalSales=60000m },
-    new Employee{ Id=4,Name="Ebrahim",Gender="Male",TotalSales=72000m },
-    new Employee{ Id=5,Name="Abdo",Gender="Male",TotalSales=24000m },
-};
+        {
+            new Employee{ Id=1,Name="Kassem",Gender="Male",TotalSales=50000m },
+            new Employee{ Id=2,Name="Ahmed",Gender="Male",TotalSales=45000m },
+            new Employee{ Id=3,Name="Mahmoud",Gender="Male",TotalSales=60000m },
+            new Employee{ Id=4,Name="Ebrahim",Gender="Male",TotalSales=72000m },
+            new Employee{ Id=5,Name="Abdo",Gender="Male",TotalSales=24000m },
+        };
 
 
         /* Using Force
