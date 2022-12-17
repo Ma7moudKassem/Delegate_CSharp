@@ -1,6 +1,6 @@
 ﻿namespace Delegate_CSharp;
 
-public class Report
+public class ReportUsingForce
 {
     public void ProcessEmployeeWith60000PlusSales(Employee[] employee)
     {
